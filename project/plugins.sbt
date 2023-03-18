@@ -1,2 +1,2 @@
-addSbtPlugin("com.github.ghik" % "plainsbt" % "0.1.1")
+addSbtPlugin("com.github.ghik" % "plainsbt" % "0.2.0")
 

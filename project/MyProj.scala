@@ -3,7 +3,7 @@ import sbt.Keys._
 import sbt._
 
 object MyProj extends ProjectGroup("myproj") {
-  override def buildSettings: Seq[Def.Setting[_]] = Seq(
+  override def commonSettings: Seq[Def.Setting[_]] = Seq(
     scalaVersion := "3.2.2",
   )
 
