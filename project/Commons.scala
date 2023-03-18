@@ -7,8 +7,5 @@ object Commons extends ProjectGroup("commons", MyProj) {
   
   lazy val db: Project = mkSubProject
   lazy val api: Project = mkSubProject
-  
-  // mandatory boilerplate that collects the subprojects
-  protected def enumerateSubprojects: Seq[Project] = discoverProjects
 }
 

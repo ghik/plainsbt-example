@@ -7,8 +7,5 @@ object BarService extends ProjectGroup("barservice", MyProj) {
   
   lazy val api: Project = mkSubProject.dependsOn(Commons.api)
   lazy val impl: Project = mkSubProject.dependsOn(api, Commons.db, FooService.api)
-  
-  // mandatory boilerplate that collects the subprojects
-  protected def enumerateSubprojects: Seq[Project] = discoverProjects
 }
 

@@ -12,8 +12,5 @@ object MyProj extends ProjectGroup("myproj") {
   lazy val commons: Project = Commons.root
   lazy val fooservice: Project = FooService.root
   lazy val barservice: Project = BarService.root
-    
-  // mandatory boilerplate that collects the subprojects
-  protected def enumerateSubprojects: Seq[Project] = discoverProjects
 }
 
