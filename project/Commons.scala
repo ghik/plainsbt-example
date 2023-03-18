@@ -1,4 +1,4 @@
-import com.github.ghik.plainsbt.ProjectGroup
+import com.github.ghik.sbt.nosbt.ProjectGroup
 import sbt.Keys._
 import sbt._
 

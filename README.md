@@ -1,6 +1,6 @@
-# plainsbt-example
+# sbt-nosbt-example
 
-An example project using the [`plainsbt`](https://github.com/ghik/plainsbt) plugin.
+An example project using the [`sbt-nosbt`](https://github.com/ghik/sbt-nosbt) plugin.
 
 The directory structure of this project is:
 
