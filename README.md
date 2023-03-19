@@ -9,6 +9,10 @@ myproj/
   commons/
     db/
     api/
+    utils/
+      jvm/
+      js/
+      shared/
   fooservice/
     api/
     impl/
@@ -24,6 +28,8 @@ myproj
 myproj-commons
 myproj-commons-db
 myproj-commons-api
+myproj-commons-utilsJS
+myproj-commons-utilsJVM
 myproj-fooservice
 myproj-fooservice-api
 myproj-fooservice-impl
