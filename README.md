@@ -10,8 +10,8 @@ myproj/
     db/
     api/
     utils/
-      jvm/
       js/
+      jvm/
       shared/
   fooservice/
     api/
